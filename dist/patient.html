@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patient Profile</title>
+    <link rel="stylesheet" href="patient.css"> <!-- Link to external CSS file -->
+</head>
+<body>
+    <header>
+        <h1>Patient Profile</h1>
+        <form id="doctorSearchForm">
+            <input type="text" id="doctorSearchInput" placeholder="Search for doctors">
+            <button type="submit">Search</button>
+        </form>
+    </header>
+    <main>
+        <section id="patientDetails">
+            <h2>Patient Details</h2>
+            <form id="patientDetailsForm">
+                <label for="patientName">Name:</label>
+                <span id="patientNameLabel"></span><br><br>
+                
+                <label for="patientAge">Age:</label>
+                <span id="patientAgeLabel"></span><br><br>
+                
+                <label for="patientAddress">Address:</label>
+                <span id="patientAddressLabel"></span><br><br>
+                
+                <label for="previousMedicalRecords">Previous Medical Records:</label>
+                <span id="previousMedicalRecordsLabel"></span>
+            </form>
+        </section>
+        
+        <section id="fileUpload">
+            <h2>Upload Medical Records</h2>
+            <form id="fileUploadForm" enctype="multipart/form-data">
+                <input type="file" id="fileInput" name="fileInput">
+                <button type="submit">Upload</button>
+            </form>
+        </section>
+
+        <section id="donationLinks" class="donation-links">
+            <h2>Donations</h2>
+            <a href="blood.html" id="bloodDonation">Blood Donation</a>
+            <a href="med-inv.html" id="medicineDonation">Medicine Donation</a>
+        </section>
+    </main>
+</body>
+</html>

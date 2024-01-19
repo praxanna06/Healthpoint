@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #ff0000, #ffffff); 
+}
+
+.background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.login-card {
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}   
+
+.login-card h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.input-container {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.input-container label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.input-container input[type="text"],
+.input-container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: transparent;
+    font-size: 16px;
+    outline: none;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.input-container input[type="text"]::after,
+.input-container input[type="password"]::after {
+    content: "";
+    width: 100%;
+    height: 2px;
+    background-color: #3498db;
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    transition: bottom 0.3s ease-in-out;
+}
+
+.input-container input[type="text"]:focus::after,
+.input-container input[type="password"]:focus::after {
+    bottom: 0;
+}
+
+
+
+.login-card button {
+    background-color:rgba(255, 0, 0, 0.9);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px; 
+}
+
+
+.login-card button:hover {
+    background-color: #2980b9;
+}
+
+.signup-link {
+    margin-top: 10px;
+}
+
+.signup-link a {
+    color: rgba(255, 0, 0, 0.9);
+    text-decoration: none;
+}
+
+.signup-link a:hover {
+    text-decoration: underline;
+    color: blue;
+}

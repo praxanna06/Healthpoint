@@ -1,0 +1,90 @@
+/* External CSS for styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgba(255, 0, 0, 0.8);
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#patientDetails {
+  background-color: #f7f7f7;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 24px;
+}
+
+#patientDetailsForm {
+  padding: 10px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+span {
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+
+#fileUpload h2 {
+  color: white;
+}
+
+/* Style the donation links */
+.donation-links {
+  margin-top: 50px;
+  text-align: center; /* Center align the links and header */
+}
+
+.donation-links h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#bloodDonation,
+#medicineDonation {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #f00;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+#bloodDonation,
+#medicineDonation {
+  background-color: white;
+  text-decoration: underline;
+  color: black;
+}
+
+#bloodDonation:hover,
+#medicineDonation:hover {
+  background-color: greenyellow;
+}
